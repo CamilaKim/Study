@@ -1,3 +1,2 @@
 # python_study
 preprocessing, crawling, python, machine-learning, tensorflow, Natural Language Processing(NLP)... 
-![alt text](https://www.google.com/search?q=tensorflow&tbm=isch&source=iu&ictx=1&fir=K88cLaZzoyIzsM%253A%252Cr9XhT1GymViHcM%252C%252Fg%252F11bwp1s2k3&usg=AI4_-kRI22Up_7VYp268UAszNAnVMjhNHw&sa=X&ved=2ahUKEwjTn5DOreLgAhXWzmEKHZIGAcMQ_B0wIXoECAQQBg&cshid=1551492082499390#imgrc=csA1oYiEddy7OM:)
