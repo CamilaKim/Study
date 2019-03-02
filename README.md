@@ -1,2 +1,8 @@
 # python_study
-preprocessing, crawling, python, machine-learning, tensorflow, Natural Language Processing(NLP)... 
+- Natural Language Processing(NLP)
+- preprocessing
+- crawling
+- python
+- machine learning
+- tensorflow
+
