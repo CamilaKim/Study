@@ -2,8 +2,8 @@
 from langdetect import detect
 from langdetect import detect_langs
 import re
-import ast
 
+#Open files 
 def openlang(filename):
   sentences=[]
   f = open(filename, 'r')
@@ -14,21 +14,24 @@ def openlang(filename):
   f.close()
   return sentences
 
+#Save files
 def to_save(lang,name,content):
 	with open(lang+name+'.txt','w') as f:
 		f.write(''.join(content))
 	return 1
 
+#Make a dictionary with the pairs of English sentence and Korean sentence
 def dictionary_list(list1,list2):
 	d={}
 	for num in range(len(list1)):
 		d[list1[num]]=list2[num]
 	return d 
 
+#Picking Korean sentences that have more than 50%,
+#and English sentences that are pair to Korean sentences
 def lang_detecting(d):
 	k=[]
 	e=[]
-	count=0
 	diction={}
 	for i in d.keys():
 		try:
@@ -46,10 +49,10 @@ def lang_detecting(d):
 	d2=dictionary_list(e,k)
 	return d2
 
+#Picking English sentences that have more than 50%, 
+#and Korean sentences that are pair to English sentences.
 def lang_detecting2(d):
 	k=[]
-	e=[]
-	count=0
 	diction={}
 	for i in d.keys():
 		try:
