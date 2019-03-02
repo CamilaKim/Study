@@ -1,3 +1,3 @@
 # python_study
-# preprocessing
-# crawling
+preprocessing
+crawling
