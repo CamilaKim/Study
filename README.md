@@ -3,8 +3,9 @@
 
 - Natural Language Processing(NLP)
 - preprocessing
-- crawling
 - python
 - machine learning
 - tensorflow
+- deep learning
+- crawling
 
